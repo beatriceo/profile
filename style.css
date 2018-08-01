@@ -1,0 +1,152 @@
+h1, h2, h3 {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  padding: 0 0;
+  margin: 0 0;
+  color: #ABAFBC;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  /*background: linear-gradient(to bottom, #f9c667 0%,#f79621 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+  /*background-color: #92817A;*/
+}
+
+a {
+  color: #597ec1;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  color: #FFFBFF;
+}
+
+h2 {
+  color: #00AABE;
+  font-size: 30px;
+}
+
+h3 {
+  color: #474838;
+  font-size: 20px;
+}
+
+p {
+  color: #FAFAEC;
+  font-size: 16px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.border {
+  border: #F7C548;
+  border-width: 1px;
+  box-shadow: 1px 1px 1px #FFFBFF;
+}
+
+.img-small {
+  width: 200px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  margin: 10 0;
+  padding: 10 10;
+  /*background-color: #F7F8FC;*/
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px #D8D8D8;
+  /*box-shadow: 2px 2px 3px #877770;*/
+}
+
+.colorful {
+  padding: 20px 0;
+  background-image: linear-gradient(to right top, #051937, #004e79, #008892, #00bf6f, #b3eb12);
+  /*background-image: linear-gradient(to right top, #101723, #4c3156, #a44365, #e56d49, #ebb912);*/
+}
+
+.container {
+  border-radius: 4px;
+  margin: 85px auto;
+}
+
+@media (max-width:3000px ) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 50%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 15px;
+  list-style: none;
+}
+
+.icon-medium {
+  font-size: 45px;
+}
+
+.list-inline a:hover{
+  color: #4567a5;
+}
+
+h2.projects {
+  text-align: left;
+  padding: 0 8px;
+}
+
+.projects {
+  padding: 0 5px;
+  line-height: 1;
+}
+
+.projects p {
+  color: #525b6b;
+  margin: 20px 0px;
+}
+
+a.link-text {
+  color: #4567a5;
+  text-decoration: underline;
+}
+
+.center img {
+  display: inline-table;
+}
+
+.center {
+  margin: 0 18%;
+}
+
+.img-inline {
+  max-height: 250px;
+  max-width: 250px;
+  padding-right: 10px;
+}
+
+#job {
+  color: #CDE80F
+}
